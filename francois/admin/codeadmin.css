@@ -1,0 +1,112 @@
+.fond{
+    position: relative;
+}
+
+.fond video{
+    width: 100%;
+    height: 100%;
+
+    object-fit:cover;
+}
+
+.fond .content {
+    position: absolute;
+    text-align: center;
+    top:20%;
+    left:40%;
+    
+}
+
+.card{
+    font-size: 25px;
+    border-radius: 20px;
+    --bs-card-border-width: 5px;
+    --bs-card-border-color: #4B088A;
+    --bs-card-bg: rgba(255, 255, 255, 0.4);
+    transition: font-size 1s;
+    
+}
+
+.card:hover{
+    font-size: 30px;
+}
+
+.title{
+    color: white;
+    font-size: 40px;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    transition: font-size 2s, text-shadow 1s, backgroung 1s
+}
+
+.title:hover{
+    font-size: 45px;
+    color: none;
+    text-shadow: none;
+    background: linear-gradient(120deg, rgb(65, 15, 146) 0%, rgba(170,60,249,1) 35%, rgba(249,203,255,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+label{
+    color: white;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    transition: color 1s, text-shadow 1s, backgroung 1s;
+}
+
+label:hover{
+    color: none;
+    text-shadow: none;
+    background: linear-gradient(120deg, rgb(65, 15, 146) 0%, rgba(170,60,249,1) 35%, rgba(249,203,255,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+}
+
+
+/*INPUT DE USERNAME ET PASSWORD*/
+input{
+    text-align: center;
+    box-sizing: border-box;
+    border:  rgb(105, 27, 158)solid 2px;
+    border-radius: 20px;
+    color: rgb(105, 27, 158);
+    font-size: 15px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 90%;
+    margin-bottom: 1em;
+    padding: 5px 5px 5px 5px;
+    resize: none;
+  }
+
+
+/*BUTTON SE CONNECTER*/
+
+button{
+    border-radius: 20px;
+    border-color: rgb(105, 27, 158);
+    color: #fff;
+    box-shadow: 0 0 40px 40px rgb(105, 27, 158) inset, 0 0 0 0 rgb(105, 27, 158);
+    transition: all 150ms ease-in-out;
+    margin-bottom:5px;
+} 
+  
+button:hover {
+    box-shadow: 0 0 10px 0 rgb(105, 27, 158) inset, 0 0 10px 4px rgb(105, 27, 158);
+    color:black;
+}
+
+
+span {
+    color: white;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
